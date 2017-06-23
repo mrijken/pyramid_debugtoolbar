@@ -174,7 +174,7 @@ file.
   overrides the default list and should be a space- or newline-separated
   sequence of panel names. For example::
 
-    debugtoolbar.panels = introspection routes settings tweens versions
+    debugtoolbar.global_panels = introspection routes settings tweens versions
 
   For compatibility with older versions of the toolbar, the panel
   name may also be the dotted Python path to the panel class. For example,
